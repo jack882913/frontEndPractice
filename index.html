@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<meta http-equiv="Content-Language" content="zh-cn">
+  	<title>华为商城</title>
+  	<meta name="description" content="网页描述">
+  	<meta name="keywords" content="关键字">
+  	<link rel="stylesheet" type="text/css" href="./style/index.min.css">
+    <script src="http://res.vmallres.com/20151129/js/common/base/jquery-1.4.4.min.js"></script>
+  	<script type="text/javascript" src="./style/core.js"></script>
+</head>
+<body>
+  <div class="shortcut">
+      <div class="shortcut-main">
+        <div class="s-main-left">
+          <ul>
+            <li id="guanwang"><a href="#">华为官网</a></li>
+            <li><a href="#">华为荣耀</a></li>
+            <li id="yingyong">
+              <div class="s-dropdown">
+                <div class="h">
+                  <a href="#">软件应用</a>
+                  <s></s>
+                </div>
+                <div class="p">
+                  <p><a href="#">EMUI</a></p>
+                  <p><a href="#">应用市场</a></p>
+                  <p><a href="#">云服务</a></p>
+                  <p><a href="#">开发者联盟</a></p>
+                </div>
+              </div>
+            </li>
+            <li><a href="#">花粉俱乐部</a></li>
+            <li><a href="#">Select Region</a></li>
+          </ul>
+        </div>
+        <div class="s-main-right">
+          <ul>
+            <li id="login"><a href="#">登陆</a></li>
+            <li id="register"><a href="#">注册</a></li>
+            <li><a href="#">我的订单</a></li>
+            <li><a href="#">V码(优惠码)</a></li>
+            <li><a href="#">手机版</a></li>
+            <li id="daohang"> 
+              <div class="s-dropdown">
+                <div class="h">
+                  <a href="#">网址导航</a>
+                  <s></s>
+                </div>
+                <div class="p">
+                  <p><a href="#">帮助中心</a></p>
+                  <p><a href="#">PC软件</a></p>
+                  <p><a href="#">数字应用</a></p>
+                  <p><a href="#">爱旅</a></p>
+                  <p><a href="#">华为网盘</a></p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      <div class="header">
+        <div class="logo">
+          <img src="./img/newLogo.png" alt="华为商城" />
+        </div>
+        <div class="search-box">
+          <div>
+            <input type="text" autocomplete="off" class="text"><input type="submit" class="button" value="搜索" />
+          </div>
+          <div class="search-keys">
+            <b>热门搜索：</b>
+            <a href="#">5X</a>   
+            <a href="#">荣耀7</a>
+            <a href="#">Mate S</a>
+            <a href="#">4A</a>
+            <a href="#">Mate 8</a>
+            <a href="#">热门配件</a>
+          </div>
+        </div>
+        <div class="tools">
+          <div class="tools-item">
+            <div class="i-mall">
+              <div class="h">
+                <a href="#">我的商城</a>
+                <i></i>
+                <s></s>
+                <u></u>
+              </div>
+              <div class="b" id="header-toolbar-imall-content">
+                <div class="i-mall-prompt">
+                  <p>您好，请 <a href="#">登陆</a> | <a href="#">注册</a></p>
+                </div>
+                <div class="i-mall-uc">
+                  <ul>
+                    <li><a href="#">我的订单</a></li>
+                    <li><a href="#">待支付</a></li>
+                    <li><a href="#">待评论</a></li>
+                    <li><a href="#">优惠券</a></li>
+                    <li><a href="#">站内信</a></li>
+                  </ul>
+                </div>
+                <div class="i-mall-event">
+                  <p><a href="#"><img src="./img/2015123118053781.jpg" /></a></p>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+          <div class="tools-item">
+            <div class="mini-car">
+              <div class="h">
+                <a href="#">我的购物车</a>
+                  <i></i>
+                  <s></s>
+                  <u></u>
+              </div>
+              <div class="b" id="header-toolbar-minicar-content">
+                <div class="mini-car-pro-empty">
+                  <p>
+                    您的购物车是空的，赶紧选购吧！
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-qrcode">
+          <div class="ec-slider" id="header-toolbar-qrcode-content">
+            <ul>
+              <li id="code1">
+                <p><img src="./img/code1.jpg"></p>
+                <a href="#">
+                  <span>扫码下载客户端</span>
+                </a>
+              </li>
+              <li id="code2">
+                <p><img src="./img/cdoe2.png"></p>
+                <a href="#">
+                  <span>微信扫码关注我们</span>
+                </a>
+              </li>
+            </ul>
+            <div class="right-tools">
+              <span class="current"></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="naver-main">
+        <div class="layout">
+          <div class="category">
+            <div class="h">
+              <h2>全部商品</h2>
+            </div>
+            <div class="b">
+              <ol class="category-list">
+                <li class="category-item">
+                  <div class="category-info">
+                    <h3>手机</h3>
+                    <a href="#">荣耀</a><a href="#">畅玩</a><a href="#">华为 Meta/P系列</a>
+                    <i class="icon-cate-arrow"></i>
+                  </div>
+                  <div class="category-panel">
+                    <ul class="subcate-list">
+                      <li class="subcate-item"><a href="#">荣耀</a></li>
+                      <li class="subcate-item"><a href="#">畅玩</a></li>
+                      <li class="subcate-item"><a href="#">华为 Meta/P系列</a></li>
+                      <li class="subcate-item"><a href="#">G/Y系列</a></li>
+                      <li class="subcate-item"><a href="#">运营商合约</a></li>
+                    </ul>
+                    <dl class="category-banner">
+                      <dt>推荐商品</dt>
+                      <dd><a href="#">以旧换新</a></dd>
+                      <dd><a href="#">北京移动、畅玩4C</a></dd>
+                      <dd><a href="#">荣耀畅玩4X 套餐版</a></dd>
+                    </dl>
+                  </div>
+                </li>
+                <li class="category-item">
+                  <div class="category-info">
+                    <h3>平板 & 穿戴</h3>
+                    <a href="#">平板电脑</a><a href="#">手环</a><a href="#">手表</a>
+                    <i class="icon-cate-arrow"></i>
+                  </div>
+                  <div class="category-panel">
+                    <ul class="subcate-list">
+                      <li class="subcate-item"><a href="#">平板电脑</a></li>
+                      <li class="subcate-item"><a href="#">手环</a></li>
+                      <li class="subcate-item"><a href="#">手表</a></li>
+                    </ul>
+                    <dl class="category-banner">
+                      <dt>推荐商品</dt>
+                      <dd><a href="#">荣耀平板</a></dd>
+                      <dd><a href="#">10.1英寸平板</a></dd>
+                      <dd><a href="#">荣耀手环zero</a></dd>
+                    </dl>
+                  </div>
+                </li>
+                <li class="category-item">
+                  <div class="category-info">
+                    <h3>智能家居</h3>
+                    <a href="#">电力猫</a><a href="#">路由器</a><a href="#">电视盒子</a>
+                    <i class="icon-cate-arrow"></i>
+                  </div>
+                  <div class="category-panel">
+                    <ul class="subcate-list">
+                      <li class="subcate-item"><a href="#">电力猫</a></li>
+                      <li class="subcate-item"><a href="#">路由器</a></li>
+                      <li class="subcate-item"><a href="#">电视盒子</a></li>
+                      <li class="subcate-item"><a href="#">随行wifi</a></li>
+                    </ul>
+                    <dl class="category-banner">
+                      <dt>推荐商品</dt>
+                      <dd><a href="#">荣耀路由</a></dd>
+                      <dd><a href="#">荣耀盒子</a></dd>
+                      <dd><a href="#">荣耀电力猫</a></dd>
+                      <dd><a href="#">华为随行WiFi plus</a></dd>
+                    </dl>
+                  </div>
+                </li>
+                <li class="category-item">
+                  <div class="category-info">
+                    <h3>必备配件</h3>
+                    <a href="#">保护壳</a><a href="#">保护套</a><a href="#">贴膜</a>
+                    <i class="icon-cate-arrow"></i>
+                  </div>
+                  <div class="category-panel">
+                    <ul class="subcate-list">
+                      <li class="subcate-item"><a href="#">保护壳</a></li>
+                      <li class="subcate-item"><a href="#">保护套</a></li>
+                      <li class="subcate-item"><a href="#">贴膜</a></li>
+                      <li class="subcate-item"><a href="#">蓝牙耳机</a></li>
+                      <li class="subcate-item"><a href="#">入耳式耳机</a></li>
+                      <li class="subcate-item"><a href="#">头戴式耳机</a></li>
+                    </ul>
+                    <dl class="category-banner">
+                      <dt>推荐商品</dt>
+                      <dd><a href="#">荣耀 圈铁耳机</a></dd>
+                      <dd><a href="#">荣耀小口哨</a></dd>
+                      <dd><a href="#">耐翔 蜂巢 蓝牙耳机</a></dd>
+                    </dl>
+                  </div>
+                </li>
+                <li class="category-item">
+                  <div class="category-info">
+                    <h3>基础配件</h3>
+                    <a href="#">表带</a><a href="#">音箱</a><a href="#">移动电源</a>
+                    <i class="icon-cate-arrow"></i>
+                  </div>
+                  <div class="category-panel">
+                    <ul class="subcate-list">
+                      <li class="subcate-item"><a href="#">表带</a></li>
+                      <li class="subcate-item"><a href="#">音箱</a></li>
+                      <li class="subcate-item"><a href="#">移动电源</a></li>
+                      <li class="subcate-item"><a href="#">电池/充电器</a></li>
+                      <li class="subcate-item"><a href="#">卡托/线材</a></li>
+                      <li class="subcate-item"><a href="#">U盘/存储卡</a></li>
+                      <li class="subcate-item"><a href="#">盒子遥控器</a></li>
+                    </ul>
+                    <dl class="category-banner">
+                      <dt>推荐商品</dt>
+                      <dd><a href="#">小天鹅蓝牙音箱</a></dd>
+                      <dd><a href="#">荣耀1.5m多彩数据线</a></dd>
+                      <dd><a href="#">Colorphon5移动电源</a></dd>
+                    </dl>
+                  </div>
+                </li>
+                <li class="category-item">
+                  <div class="category-info">
+                    <h3>潮流配件</h3>
+                    <a href="#">支架</a><a href="#">自拍杆/器</a><a href="#">智能开关/插座</a>
+                    <i class="icon-cate-arrow"></i>
+                  </div>
+                  <div class="category-panel">
+                    <ul class="subcate-list">
+                      <li class="subcate-item"><a href="#">支架</a></li>
+                      <li class="subcate-item"><a href="#">自拍杆/器</a></li>
+                      <li class="subcate-item"><a href="#">智能开关/插座</a></li>
+                      <li class="subcate-item"><a href="#">摄像头/镜头</a></li>
+                      <li class="subcate-item"><a href="#">健康家居</a></li>
+                      <li class="subcate-item"><a href="#">车载电器</a></li>
+                      <li class="subcate-item"><a href="#">智能灯饰</a></li>
+                      <li class="subcate-item"><a href="#">钥匙扣</a></li>
+                      <li class="subcate-item"><a href="#">创意配件</a></li>
+                    </ul>
+                    <dl class="category-banner">
+                      <dt>推荐商品</dt>
+                      <dd><a href="#">RyFit体质分析仪</a></dd>
+                    </dl>
+                  </div>
+                </li>
+                <li class="category-item">
+                  <div class="category-info">
+                    <h3>应用市场</h3>
+                    <a href="#">手机游戏</a><a href="#">手机应用</a>
+                    <i class="icon-cate-arrow"></i>
+                  </div>
+                  <div class="category-panel">
+                    <ul class="subcate-list">
+                      <li class="subcate-item"><a href="#">手机游戏</a></li>
+                      <li class="subcate-item"><a href="#">手机应用</a></li>
+                    </ul>
+                  </div>
+                </li>
+                </ol>
+            </div>
+          </div>
+          <div class="naver">
+            <ul class="naver-list">
+              <li class="naver-item current"><a href="#">首页</a></li>
+              <li class="naver-item"><a href="#">荣耀家族夜场</a></li>
+              <li class="naver-item"><a href="#">HUAWEI Meta 8</a></li>
+              <li class="naver-item"><a href="#">荣耀6</a></li>
+              <li class="naver-item"><a href="#">HUAWEI WATCH</a></li>
+              <li class="naver-item">
+                <a href="javascript:;"><span>精彩频道</span><i class="naver-arrow"></i></a>
+                <ol class="naver-childer-list">
+                  <li><a href="#">1元预订</a></li>
+                  <li><a href="#">以旧换新</a></li>
+                  <li><a href="#">实名认证</a></li>
+                  <li><a href="#">合约机</a></li>
+                </ol>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="hot-board">
+        <div class="slider">
+          <ul class="slider-img-list">
+            <li class="slider-img-item" style="display:list-item;"><img src="./img/20151222212225106.png" /></li>
+            <li class="slider-img-item"><img src="./img/20151223145745224.jpg" /></li>
+            <li class="slider-img-item"><img src="./img/20151223150140647.jpg" /></li>
+            <li class="slider-img-item"><img src="./img/20151223222647443.jpg" /></li>
+            <li class="slider-img-item"><img src="./img/20151223222759399.jpg" /></li>
+            <li class="slider-img-item"><img src="./img/20151224095252748.jpg" /></li>
+            <li class="slider-img-item"><img src="./img/20151224120303783.jpg" /></li>
+          </ul>
+        </div>
+      </div>
+      <div class="hr20"></div>
+      <div class="layout head-item">
+        <div class="hl">
+          <ul class="channel-list">
+            <li class="channel-item w50">
+              <div class="channel-item-info">
+                <div class="pro-info c1">
+                  <div class="info-img"><a href="#"><img src="./img/1452479477497.png" /></a></div>
+                  <div class="info-title"><a href="#">荣耀7</a></div>
+                  <div class="head1">
+                    <p style="color:#777">指纹识别 创新智灵键</p>
+                    <p style="color:#e01d20">荣耀旗舰抢购 赠TPU保护壳</p>
+                  </div>
+                  <div class="price">￥1799</div>
+                  <div class="button"><a href="#">立即抢购</a></div>
+                </div>
+                <i class="pro-l-tag"></i>
+              </div>
+            </li>
+            <li class="channel-item w50">
+              <div class="channel-item-info">
+                <div class="pro-info c2">
+                  <div class="info-img"><a href="#"><img src="./img/1449484792753.png" /></a></div>
+                  <div class="info-title"><a href="#">HUAWEI Meta 8</a></div>
+                  <div class="head1">
+                    <p style="color:#777">执念 是一种信仰</p>
+                    <p style="color:#e01d20">开售时间1月11日 10:08</p>
+                  </div>
+                  <div class="price">￥3699</div>
+                  <div class="button"><a href="#">立即抢购</a></div>
+                </div>
+                <i class="pro-r-tag"></i>
+              </div>
+            </li>
+            <li class="channel-item w50">
+              <div class="channel-item-info">
+                <div class="pro-info c3">
+                  <div class="info-img"><a href="#"><img src="./img/1450351387021.png" /></a></div>
+                  <div class="info-title"><a href="#">荣耀6 Plus</a></div>
+                  <div class="head1">
+                    <p style="color:#777">双眼看世界 洞悉视界之美</p>
+                    <p style="color:#e01d20">火爆开售中</p>
+                  </div>
+                  <div class="price">￥1599</div>
+                  <div class="button"><a href="#">立即抢购</a></div>
+                </div>
+                <i class="pro-l-tag"></i>
+              </div>
+            </li>
+            <li class="channel-item w50">
+              <div class="channel-item-info">
+                <div class="pro-info c4" >
+                  <div class="info-img"><a href="#"><img src="./img/1449128509518.png" /></a></div>
+                  <div class="info-title"><a href="#">华为 畅享5S</a></div>
+                  <div class="head1">
+                    <p style="color:#777">青春放手玩</p>
+                    <p style="color:#e01d20">移动版首发</p>
+                  </div>
+                  <div class="price">￥1199</div>
+                  <div class="button"><a href="#">立即抢购</a></div>
+                </div>
+                <i class="pro-r-tag"></i>
+              </div>
+            </li>
+          </ul>
+          <div style="clear:both;"></div>
+        </div>
+        <div class="hr">
+          <div class="channel-sale">
+            <img src="./img/20160108214217801.jpg" />
+          </div>
+          <div class="channel-news">
+            <div class="news-tab">
+              <div class="h">
+                <span id="notice" class="current"><a href="#" >公告</a></span>
+                <span id="news"><a href="#" >新闻</a></span>
+              </div>
+              <div class="b">
+                <ul id="notice-content-list">
+                  <li><a href="#">【中奖名单】荣耀圣诞 耀有礼了！2天6场...</a></li>
+                  <li><a href="#">【中奖名单】荣耀手环zero SS版评价有礼</a></li>
+                  <li><a href="#">【中奖名单】HUAWEI Meta 8好评有礼</a></li>
+                  <li><a href="#">荣耀家族移动端专场</a></li>
+                  <li><a href="#">新品1元预订 享特权抽大奖</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="hr20"></div>
+          <div class="news-img">
+            <a href="#"><img src="./img/2016010100091382.jpg" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="middle-banner">
+        <a href="#"><img src="./img/20151222103547290.jpg" /></a>
+      </div>
+      <div class="hr20"></div>
+      <div class="layout">
+        <div class="h">
+          <h2><a href="#">手机</a></h2>
+          <em class="subtitle">华为精品手机</em>
+          <ul>
+            <li><a href="#">荣耀</a></li>
+            <li><a href="#">畅玩</a></li>
+            <li><a href="#">华为 Mate/P系列</a></li>
+            <li><a href="#">G/Y系列</a></li>
+            <li><a href="#">运营商合约</a></li>
+          </ul>
+        </div>
+        <div style="clear:both;"></div>
+        <div class="b mobile-list">
+          <ul class="channel-list">
+            <li class="channel-item w50">
+              <div class="channel-item-info">
+                <div class="pro-info c1">
+                  <div class="info-img-mobile"><a href="#"><img src="./img/1450921419246.png" /></a></div>
+                  <div class="i-name"><a href="#">荣耀6</a></div>
+                  <div class="i-detail">
+                    <p style="color:#777">5英寸全高清屏 强悍续航</p>
+                    <p style="color:#e01d20">热卖爆款 先到先得</p>
+                  </div>
+                  <div class="i-price">￥1799</div>
+                  <div class="button"><a href="#">立即抢购</a></div>
+                </div>
+                <i class="pro-l-tag"></i>
+              </div>
+            </li>
+            <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c2">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1453086748751.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">荣耀7i <label style="color:#e01d20">年货节期间限量赠自拍杆</label></a></p>
+                  </div>
+                  <div class="i-price">￥1599</div>
+                </div>
+                <i class="pro-l-tag"></i>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c4">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1449196465883 (1).png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">HUAWEI Mate S <label style="color:#e01d20">"薄"动心弦，智能生活</label></a></p>
+                  </div>
+                  <div class="i-price">￥4199</div>
+                </div>
+              </div>
+            </li>
+            <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1453032296854.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">荣耀畅玩4X <label style="color:#e01d20">千万人之选，送荣耀耳机<label></a></p>
+                  </div>
+                  <div class="i-price">￥799</div>
+                </div>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1453042089147.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">荣耀畅玩4C <label style="color:#e01d20">热卖爆款，体验升级，领券享优惠</label></a></p>
+                  </div>
+                  <div class="i-price">￥999</div>
+                </div>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1452786841475.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">华为畅玩5X <label style="color:#e01d20">金属机身 指纹识别</label></a></p>
+                  </div>
+                  <div class="i-price">￥1399</div>
+                </div>
+                <i class="pro-new-tag"></i>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1453046694448.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">华为P8青春版 <label style="color:#e01d20">领券减200 限量赠移动电源</label></a></p>
+                  </div>
+                  <div class="i-price">￥1388</div>
+                </div>
+                <i class="pro-l-tag"></i>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1452844843602.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">华为 畅享5 <label style="color:#e01d20">青春玩不停</label></a></p>
+                  </div>
+                  <div class="i-price">￥999</div>
+                </div>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1453032361892.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">荣耀4A <label style="color:#e01d20">1月18号至1月20号开售</label></a></p>
+                  </div>
+                  <div class="i-price">￥599</div>
+                </div>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1449838801083 (1).png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">G7 Plus <label style="color:#e01d20">自在之怡然</label></a></p>
+                  </div>
+                  <div class="i-price">￥2099</div>
+                </div>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1449834519992 (1).png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">华为P8高配版 <label style="color:#e01d20">领券减300 赠真皮壳</label></a></p>
+                  </div>
+                  <div class="i-price">￥3288</div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="hr20"></div>
+      <div class="layout">
+        <div class="h">
+          <h2><a href="#">平板 & 穿戴</a></h2>
+          <em class="subtitle">华为精品平板</em>
+          <ul>
+            <li><a href="#">平板电脑</a></li>
+            <li><a href="#">手环</a></li>
+            <li><a href="#">手表</a></li>
+          </ul>
+        </div>
+        <div style="clear:both;"></div>
+        <div class="b mobile-list">
+          <ul class="channel-list">
+            <li class="channel-item w50">
+              <div class="channel-item-info">
+                <div class="pro-info c5">
+                  <div class="info-img-mobile"><a href="#"><img src="./img/1452586655406.png" /></a></div>
+                  <div class="i-name"><a href="#">华为 M2 10.0 平板电脑</a></div>
+                  <div class="i-detail">
+                    <p style="color:#777">悦耳倾心，智趣合一</p>
+                  </div>
+                  <div class="i-price">￥2288</div>
+                  <div class="button"><a href="#">立即抢购</a></div>
+                </div>
+                <i class="pro-first-tag"></i>
+              </div>
+            </li>
+            <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c6">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1449143770512 (1).png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">HUAWEI WATCH <label style="color:#e01d20">智芯 致永恒！</label></a></p>
+                  </div>
+                  <div class="i-price">￥2388</div>
+                </div>
+                <i class="pro-new-tag"></i>
+              </div>
+            </li>
+            <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c3">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1448853168609 (1).png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">荣耀手环zero <label style="color:#e01d20">荣耀年货节促销限时特惠直降30元！</label></a></p>
+                  </div>
+                  <div class="i-price">￥399</div>
+                </div>
+                <i class="pro-hot-tag"></i>
+              </div>
+            </li>
+            <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1450926930468 (1).png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">荣耀小K 儿童通话手表 <label style="color:#e01d20">荣耀年货节促销限时特惠直降50元！</label></a></p>
+                  </div>
+                  <div class="i-price">￥688</div>
+                </div>
+                <i class="pro-hot-tag"></i>
+              </div>
+            </li>
+            <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1443085822382 (1).png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">荣耀X2 <label style="color:#e01d20">荣耀年货节促销限时特惠直降200元！</label></a></p>
+                  </div>
+                  <div class="i-price">￥1999</div>
+                </div>
+                <i class="pro-hot-tag"></i>
+              </div>
+            </li>
+            <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1447211984495 (1).png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">华为手环 B2 <label style="color:#e01d20">腕上私语 言行合一</label></a></p>
+                  </div>
+                  <div class="i-price">￥1199</div>
+                </div>
+              </div>
+            </li>
+            <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1446881383308 (1).png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">荣耀平板 <label style="color:#e01d20">荣耀年货节促销限时特惠直降100元！</label></a></p>
+                  </div>
+                  <div class="i-price">￥999</div>
+                </div>
+                <i class="pro-hot-tag"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+       <div class="hr20"></div>
+      <div class="layout">
+        <div class="h">
+          <h2><a href="#">智能家居</a></h2>
+          <em class="subtitle">上网必备</em>
+          <ul>
+            <li><a href="#">电力猫</a></li>
+            <li><a href="#">路由器</a></li>
+            <li><a href="#">电视盒子</a></li>
+            <li><a href="#">随行wiFi</a></li>
+          </ul>
+        </div>
+        <div style="clear:both;"></div>
+        <div class="b mobile-list">
+          <ul class="channel-list">
+            <li class="channel-item w50">
+              <div class="channel-item-info">
+                <div class="pro-info c4">
+                  <div class="info-img-mobile"><a href="#"><img src="./img/1452734106059.png" /></a></div>
+                  <div class="i-name"><a href="#">荣耀盒子voice</a></div>
+                  <div class="i-detail">
+                    <p style="color:#777">智能语音搜片，只需一按；4K画质，流畅播放；海量影视，每日更新!</p>
+                    <p style="color:#e01d20">1月12日~1月31日评价抽大奖，晒单赢好礼！</p>
+                  </div>
+                  <div class="i-price">￥228</div>
+                  <div class="button"><a href="#">立即抢购</a></div>
+                </div>
+                <i class="pro-l-tag"></i>
+              </div>
+            </li>
+            <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c1">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1452561675294.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">荣耀路由Pro <label style="color:#e01d20">1月12日~1月31日评价抽大奖，晒单赢好礼！</label></a></p>
+                  </div>
+                  <div class="i-price">￥328</div>
+                </div>
+                <i class="pro-first-tag"></i>
+              </div>
+            </li>
+            <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c2">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1452043363746.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">【1元订金】荣耀WiFi穿墙宝 <label style="color:#e01d20">新品首发，1元订购享特权抽大奖！</label></a></p>
+                  </div>
+                  <div class="i-price">￥268</div>
+                </div>
+                <i class="pro-first-tag"></i>
+              </div>
+            </li>
+            <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1429088320550.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">荣耀路由 <label style="color:#e01d20">荣耀年货节促销限时特惠直降30元！</label></a></p>
+                  </div>
+                  <div class="i-price">￥188</div>
+                </div>
+                <i class="pro-hot-tag"></i>
+              </div>
+            </li>
+            <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1453046369036.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">华为WS832 1200M 无线路由器 <label style="color:#e01d20">华为年货节，前500名下单赠送网线一</label></a></p>
+                  </div>
+                  <div class="i-price">￥249</div>
+                </div>
+                <i class="pro-song-tag"></i>
+              </div>
+            </li>
+            <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1453046467946.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">华为 WS550 450M 无线路由器 <label style="color:#e01d20">华为年货节，前500名下单赠送网线一</label></a></p>
+                  </div>
+                  <div class="i-price">￥169</div>
+                </div>
+                <i class="pro-song-tag"></i>
+              </div>
+            </li>
+            <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1449480370661.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">华为M330 华为盒子 <label style="color:#e01d20">华为年货节，前200名下单赠送遥控器！</label></a></p>
+                  </div>
+                  <div class="i-price">￥349</div>
+                </div>
+                <i class="pro-song-tag"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="hr20"></div>
+      <div class="layout">
+        <div class="h">
+          <h2><a href="#">必备配件</a></h2>
+          <em class="subtitle">配件与服务</em>
+          <ul>
+            <li><a href="#">保护壳</a></li>
+            <li><a href="#">保护套</a></li>
+            <li><a href="#">贴膜</a></li>
+            <li><a href="#">蓝牙耳机</a></li>
+            <li><a href="#">入耳式耳机</a></li>
+            <li><a href="#">头戴耳机</a></li>
+          </ul>
+        </div>
+        <div style="clear:both;"></div>
+        <div class="b mobile-list">
+          <ul class="channel-list">
+            <li class="channel-item w50">
+              <div class="channel-item-info">
+                <div class="pro-info c1">
+                  <div class="info-img-mobile"><a href="#"><img src="./img/1450089339226.png" /></a></div>
+                  <div class="i-name"><a href="#">荣耀圈铁耳机</a></div>
+                  <div class="i-detail">
+                    <p style="color:#777">动圈&动铁，带你聆听不一样的声音</p>
+                    <p style="color:#e01d20">中低音澎湃，高音敏锐清脆，外观现代优雅，佩戴舒适</p>
+                  </div>
+                  <div class="i-price">￥299</div>
+                  <div class="button"><a href="#">立即抢购</a></div>
+                </div>
+                <i class="pro-l-tag"></i>
+              </div>
+            </li>
+            <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c2">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1453102523567.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">荣耀自拍杆 <label style="color:#e01d20"> 换个角度，看见你的美</label></a></p>
+                  </div>
+                  <div class="i-price">￥49</div>
+                </div>
+                <i class="pro-new-tag"></i>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c4">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1452042979876.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">荣耀小口哨 蓝牙耳机 <label style="color:#e01d20">高清音质蓝牙耳机，时尚设计随用随充</label></a></p>
+                  </div>
+                  <div class="i-price">￥199</div>
+                </div>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1433835808223.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">华为 小天鹅蓝牙免提音箱 <label style="color:#e01d20">自然音质，简洁触控，支持蓝牙免提通话</label></a></p>
+                  </div>
+                  <div class="i-price">￥109</div>
+                </div>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1437447628631.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">荣耀引擎耳机PLUS <label style="color:#e01d20">经典再续，全面升级</label></a></p>
+                  </div>
+                  <div class="i-price">￥99</div>
+                </div>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1451128608141.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">华为5V2A带线充电头 <label style="color:#e01d20">2A大电流，充电迅速，轻便可靠</label></a></p>
+                  </div>
+                  <div class="i-price">￥49</div>
+                </div>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1438847139488.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">荣耀 AM115 半入耳式耳机 <label style="color:#e01d20">三键线控，佩戴舒适，操作简便</label></a></p>
+                  </div>
+                  <div class="i-price">￥79</div>
+                </div>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1450863312793.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">华为二合一通用数据线 <label style="color:#e01d20">充电迅速，传输稳定，安全可靠</label></a></p>
+                  </div>
+                  <div class="i-price">￥19</div>
+                </div>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1451181467078.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">Colorphon 5 移动电源 <label style="color:#e01d20">多彩外观，轻薄小巧，充电迅速</label></a></p>
+                  </div>
+                  <div class="i-price">￥159</div>
+                </div>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1452530203855.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">创意鸟笼智能触碰感应灯 <label style="color:#e01d20">年货节特惠41元！</label></a></p>
+                  </div>
+                  <div class="i-price">￥49</div>
+                </div>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1450922646920.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">云悦 体质仪 <label style="color:#e01d20">限量赠送价值80元瑜伽球！</label></a></p>
+                  </div>
+                  <div class="i-price">￥99</div>
+                </div>
+                <i class="pro-hot-tag"></i>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1451284334110.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">锐力 商务便携式 WIFI云端摄像笔 <label style="color:#e01d20">年货节限时特惠269元！</label></a></p>
+                  </div>
+                  <div class="i-price">￥299</div>
+                </div>
+                <i class="pro-new-tag"></i>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1452568972215.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">BroadLink WiFi智能开关插座 <label style="color:#e01d20">年货节限时特惠48元！</label></a></p>
+                  </div>
+                  <div class="i-price">￥59</div>
+                </div>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1451284046726.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">耐翔 手机扩容U盘 <label style="color:#e01d20">年货节限时特惠59元起！</label></a></p>
+                  </div>
+                  <div class="i-price">￥69</div>
+                </div>
+                <i class="pro-bao-tag"></i>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1448675280211.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">大康 S007 智能蓝牙耳机 <label style="color:#e01d20">年货节限时特惠50元！</label></a></p>
+                  </div>
+                  <div class="i-price">￥68</div>
+                </div>
+                <i class="pro-bao-tag"></i>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1451128036770.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">云度Yundu 运动防水太阳能移动电源 <label style="color:#e01d20">年货节限时特惠149元！</label></a></p>
+                  </div>
+                  <div class="i-price">￥168</div>
+                </div>
+                <i class="pro-hot-tag"></i>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1451095889937.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">LYL 车用太阳能负离子空气净化器 <label style="color:#e01d20">年货节限时特惠236元！</label></a></p>
+                  </div>
+                  <div class="i-price">￥268</div>
+                </div>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1450923125496.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">Xoopar 多功能读卡器 <label style="color:#e01d20">传输快，更便携！</label></a></p>
+                  </div>
+                  <div class="i-price">￥68</div>
+                </div>
+                <i class="pro-new-tag"></i>
+              </div>
+            </li>
+             <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c0">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1452530393231.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">耐翔 迷你车载手机支架 <label style="color:#e01d20">去繁从简，灵巧耐用！</label></a></p>
+                  </div>
+                  <div class="i-price">￥28</div>
+                </div>
+                <i class="pro-new-tag"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="hr20"></div>
+      <div class="layout">
+        <div class="h">
+          <h2><a href="#">每日特价</a></h2>
+          <em class="subtitle">精品推荐</em>
+          <ul>
+            <li><a href="#">每日特价</a></li>
+          </ul>
+        </div>
+        <div style="clear:both;"></div>
+        <div class="b mobile-list">
+          <ul class="channel-list">
+            <li class="channel-item w50">
+              <div class="channel-item-info">
+                <div class="pro-info c5">
+                  <div class="info-img-mobile"><a href="#"><img src="./img/1452529274135.png" /></a></div>
+                  <div class="i-name"><a href="#">华为 Mate7上卡托</a></div>
+                  <div class="i-detail">
+                    <p style="color:#777">特惠仅售1.8元！</p>
+                    <p style="color:#e01d20">更多插卡方式</p>
+                  </div>
+                  <div class="i-price">￥18</div>
+                  <div class="button"><a href="#">立即抢购</a></div>
+                </div>
+                <i class="pro-xian-tag"></i>
+              </div>
+            </li>
+            <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c6">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1452529343941.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">荣耀畅玩4 PC保护壳 <label style="color:#e01d20">特价优惠仅售20元！</label></a></p>
+                  </div>
+                  <div class="i-price">￥39</div>
+                </div>
+                <i class="pro-xian-tag"></i>
+              </div>
+            </li>
+            <li class="channel-item w25">
+              <div class="channel-item-info">
+                <div class="pro-info c3">
+                  <div class="info-img-noleft"><a href="#"><img src="./img/1452757647511.png" /></a></div>
+                  <div class="i-name">
+                    <p style="color:#333"><a herf="#">荣耀畅玩4高透保护膜 <label style="color:#e01d20">特价优惠仅售10</label></a></p>
+                  </div>
+                  <div class="i-price">￥19</div>
+                </div>
+                <i class="pro-xian-tag"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="hr20"></div>
+      <div class="body-bottom"><a href="#"><img src="./img/20151222143005583.jpg" /></a></div>
+      <div class="hr20"></div>
+      <div class="follow">
+        <div class="layout">
+          <ul>
+            <li><a href="#"><img src="./img/follow_hwsoft_application.png" /></a></li>
+            <li><a href="#"><img src="./img/follow_sina.png" /></a></li>
+            <li><a href="#"><img src="./img/follow_qzone.png" /></a></li>
+            <li><a href="#"><img src="./img/follow_android.png" /></a></li>
+          </ul>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <div class="layout slogan">
+        <ul>
+          <li class="s1">
+            <i></i>500强企业 品质保证
+          </li>
+          <li class="s2">
+            <i></i>7天退货 15天换货
+          </li>
+          <li class="s3">
+            <i></i>99元起免运费
+          </li>
+          <li class="s4">
+            <i></i>448家维修网点 全国联保
+          </li>
+        </ul>
+      </div>
+      <div class="hr20"></div>
+      <div class="layout service">
+        <ul>
+          <li class="fs1"><i></i>帮助中心
+            <ul>
+              <li><a href="#">购物指南</a></li>
+              <li><a href="#">配送方式</a></li>
+              <li><a href="#">支付方式</a></li>
+              <li><a href="#">常见问题</a></li>
+            </ul>
+          </li>
+          <li class="fs2"><i></i>售后服务
+            <ul>
+              <li><a href="#">保修政策</a></li>
+              <li><a href="#">退换货政策</a></li>
+              <li><a href="#">退换货流程</a></li>
+              <li><a href="#">手机寄修服务</a></li>
+            </ul>
+          </li>
+          <li class="fs3"><i></i>技术支持
+             <ul>
+              <li><a href="#">售后网点</a></li>
+              <li><a href="#">常见问题</a></li>
+              <li><a href="#">产品手册</a></li>
+              <li><a href="#">软件下载</a></li>
+            </ul>
+          </li>
+          <li class="fs4"><i></i>关于商城
+             <ul>
+              <li><a href="#">公司介绍</a></li>
+              <li><a href="#">华为商城简介</a></li>
+              <li><a href="#">联系客服</a></li>
+            </ul>
+          </li>
+          <li class="fs5"><i></i>关注我们
+             <ul>
+              <li><a href="#">新浪微博</a></li>
+              <li><a href="#">腾讯微博</a></li>
+              <li><a href="#">花粉社区</a></li>
+              <li><a href="#">商城手机版</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="hr20"></div>
+      <div class="layout link">
+        <p style="text-align:left;">友情链接： | <a href="http://www.huawei.com/cn/" target="_blank">华为官网</a> | <a href="http://consumer.huawei.com/cn/" target="_blank" style="line-height:1.5;">华为消费者业务</a><span style="line-height:1.5;"> </span><span style="line-height:1.5;">|</span><span style="line-height:1.5;"> </span><a href="http://www.honor.cn/" target="_blank" style="line-height:1.5;">荣耀官网</a><span style="line-height:1.5;"> | </span><a href="http://club.huawei.com/" target="_blank" textvalue="花粉俱乐部">花粉俱乐部</a><span style="line-height:1.5;"> | </span><a href="http://www.huaweimossel.com/" target="_blank" style="line-height:1.5;">莫塞尔商城</a><span style="line-height:1.5;"> | </span><a href="http://www.hwtrip.com/" target="_blank" style="line-height:1.5;">爱旅官网</a><span style="line-height:1.5;"> | </span><a href="http://app.vmall.com/" target="_blank" style="line-height:1.5;">华为应用市场</a><span style="line-height:1.5;"> | </span><a href="http://www.wbiao.cn/" target="_blank" style="line-height:1.5;">万表网</a><span style="line-height:1.5;"> | </span><a href="http://www.imobile.com.cn/" target="_blank" style="line-height:1.5;">手机之家</a><span style="line-height:1.5;"> | </span><a href="http://www.askci.com/" target="_blank" style="line-height:1.5;">中商情报网</a><span style="line-height:1.5;"> | </span><a href="http://www.zbird.com/" target="_blank" style="line-height:1.5;">钻石小鸟</a><span style="line-height:1.5;"> | </span><a href="http://www.shuame.com/" target="_blank" style="line-height:1.5;">刷机精灵</a><span style="line-height:1.5;"> | </span><a href="http://www.nduoa.com/" target="_blank" style="line-height:1.5;">安卓市场</a><span style="line-height:1.5;"> | </span><a href="http://www.17ugo.com/" target="_blank" style="line-height:1.5;">优购物</a><span style="line-height:1.5;">官网 | </span><a href="http://www.ydss.cn/" target="_blank" style="line-height:1.5;">移动叔叔</a><span style="line-height:1.5;"> | </span><a href="http://www.outlets365.com/" target="_blank" style="line-height:1.5;">奥特莱斯</a><span style="line-height:1.5;"> |</span></p><p style="text-align:left;"><a href="http://www.zol.com/" target="_blank">中关村商城</a> | <a href="http://www.kugou.com/" target="_blank">酷狗音乐</a> | <a href="http://m.vmall.com/" target="_blank" style="line-height:1.5;">华为商城手机版</a><span style="line-height:1.5;"> | </span><a href="http://www.3533.com/" target="_blank" style="line-height:1.5;">手机世界</a><span style="line-height:1.5;"> | </span><a href="http://www.958shop.com/" target="_blank" style="line-height:1.5;">百信手机网</a><span style="line-height:1.5;"> | </span><a href="http://www.youboy.com/" target="_blank" style="line-height:1.5;">一呼百应网</a><span style="line-height:1.5;"> | </span><a href="http://www.cardbaobao.com/" target="_blank" style="line-height:1.5;">卡宝宝网</a><span style="line-height:1.5;"> | </span><a href="http://www.duote.com" target="_blank" textvalue="多特软件下载">多特软件下载</a><span style="line-height:1.5;"> </span><span style="line-height:1.5;">| </span><a href="http://www.hitao.com/" target="_blank" style="line-height:1.5;">嗨淘网</a><span style="line-height:1.5;"> | </span><a href="http://www.tongbu.com/" target="_blank" style="line-height:1.5;">同步助手</a><span style="line-height:1.5;"> | </span><a href="http://www.fengniao.com/" target="_blank" style="line-height:1.5;">蜂鸟摄影网</a><span style="line-height:1.5;"> | </span><a href="http://www.7po.com/" target="_blank" style="line-height:1.5;">奇珀论坛</a><span style="line-height:1.5;"> | </span><a href="http://www.homekoo.com/" target="_blank" style="line-height:1.5;">家具商城</a><span style="line-height:1.5;"> | </span><a href="http://www.xbiao.com/" target="_blank" style="line-height:1.5;">世界名表</a><span style="line-height:1.5;"> | </span><a href="http://www.paixie.net/" target="_blank" style="line-height:1.5;">拍鞋网</a><span style="line-height:1.5;">商城</span><span style="line-height:1.5;"> | </span><a href="http://www.obolee.com/" target="_blank" style="line-height:1.5;">欧宝丽珠宝</a><span style="line-height:1.5;"> | </span><a href="http://www.xungou.com/" target="_blank" style="line-height:1.5;">寻购网</a><span style="line-height:1.5;"> </span><span style="line-height:1.5;"></span><span style="line-height:1.5;"></span><span style="line-height:1.5;">|</span></p><p style="text-align:left;"><a href="http://www.jiukuaiyou.com/" target="_blank">九块邮官网</a> | <a href="http://www.mumayi.com/" target="_blank">安卓游戏</a> | <a href="http://baike.1688.com/" target="_blank">阿里巴巴生意经</a> | <a href="http://product.cnmo.com/" target="_blank">手机大全</a> | <a href="http://www.anzow.com/" target="_blank">安卓软件园</a> | <a href="http://www.dashi.com/" target="_blank">卓大师刷机</a> | <a href="http://www.wpxap.com/" target="_blank">智机论坛</a> | <a href="http://www.eepw.com.cn/" target="_blank">电子产品世界</a> | <a href="http://www.liqucn.com/" target="_blank">历趣网</a> | <a href="http://www.51bi.com/" target="_blank">网购返利</a> | <a href="http://cn.china.cn/" target="_blank">中国供应商</a> | <a href="http://www.apple110.com/" target="_blank" title="Apple110">Apple110</a> | <a href="http://www.91.com/" target="_blank" textvalue="91手机门户网">91.手机门户网</a> <span style="line-height:1.5;"></span><span style="line-height:1.5;">| </span><a href="http://www.in189.com/" target="_blank" textvalue="添翼圈社区">添翼圈社区</a> <span style="line-height:1.5;"></span><span style="line-height:1.5;">| </span><a href="http://www.egou.com/" target="_blank" style="line-height:1.5;">易购官网</a><span style="line-height:1.5;"> </span><span style="line-height:1.5;">|</span><span style="line-height:1.5;"> </span><a href="http://www.meilele.com/" target="_blank" textvalue="美乐乐家具网">美乐乐家具网</a><span style="line-height:1.5;"> | </span></p><p style="text-align:left;"><a href="http://www.znds.com" target="_blank" style="line-height:1.5;">智能电视网</a><span style="line-height:1.5;"> </span><span style="line-height:1.5;">| </span><a href="http://m.kuaidi100.com/index_all.html" target="_blank" title="快递查询" textvalue="快递查询">快递查询</a> <span style="line-height:1.5;">|</span><span style="line-height:1.5;"> </span><a href="http://www.yzmg.com/" target="_blank" style="line-height:1.5;">亿智蘑菇</a>手机网<span style="line-height:1.5;"> </span><span style="line-height:1.5;">|</span><span style="line-height:1.5;"> </span><a href="http://www.uc.cn/" target="_blank" style="line-height:1.5;">UC浏览器</a><span style="line-height:1.5;"> </span><span style="line-height:1.5;">| </span><a href="http://www.vmall.com/recycle" target="_blank" textvalue="以旧换新" style="line-height:1.5;">以旧换新</a><span style="line-height:1.5;"><span style="line-height:1.5;"> | <a href="http://www.vmall.com/product/2647.html" target="_blank">华为Mate8</a> | 携程<a href="http://car.ctrip.com" target="_blank">租车</a> | </span></span><a href="http://www.vmall.com/links" target="_blank" style="line-height:1.5;color:#ff0000;">申请链接 &gt;&gt;</a></p><p style="text-align:left;"><span style="line-height:1.5;"></span></p>
+      </div>
+      <div class="hr20"></div>
+      <div class="layout footer">
+        <div class="top">
+          <a href="#">隐私政策</a> <a href="#">服务协议</a> Copyright © 2012-2016 VMALL.COM 版权所有 保留一切权利
+        </div>
+        <div class="middle">
+          苏ICP备09062682号-9 | 增值电信业务经营许可证：苏B2-20130048 | 网络文化经营许可证：苏网文[2012]0401-019号
+        </div>
+        <div class="bottom">
+          <a href="#"><img src="./img/certificate_02_112_40.png"></a> <a href="#"><img src="./img/certificate_03_112_40.png"></a>
+        </div>
+      </div>
+  </body>
+<html>
