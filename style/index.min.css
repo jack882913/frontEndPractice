@@ -5,7 +5,7 @@
 }
 
 body, button, input, select, textarea {
-	font:12px/1.5tahoma, arial, \5b8b\4f53;
+	font-family: 'Tahoma',\5FAE\8F6F\96C5\9ED1;
 	background: #FFF;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -26,6 +26,7 @@ ul, ol {
 a {
 	text-decoration:none;
 	color: #333;
+	font-family: 'Tahoma',\5FAE\8F6F\96C5\9ED1;
 }
 a:hover {
 	text-decoration:underline;
@@ -261,7 +262,7 @@ a:hover{
 .tools .tools-item .b{
 	display:none;
 	position: absolute;
-	z-index: 413;
+	z-index: 10;
 	width:196px;
 	border: 1px solid #e5e5e5;
 	overflow: hidden;
@@ -312,6 +313,7 @@ a:hover{
 	right: -1px;
 	background: #FFF;
 	top:28px;
+	z-index: 10;
 }
 .tools .tools-item .mini-car-pro-empty{
 	text-align: center;
@@ -359,9 +361,11 @@ a:hover{
 	margin-bottom: -15px;
 }
 .header-qrcode #code1{
+	position: relative;
 	display: none;
 }
 .header-qrcode #code2{
+	position: relative;
 	display: block;
 }
 .right-tools{
@@ -406,7 +410,7 @@ a:hover{
 	background-color: #e63547;
 	border-bottom:none;
 }
-.naver-main .category .h h2{
+.naver-main .category .h h1{
 	border-bottom: 1px solid #f86675;
 	padding-left:20px;
 	line-height: 37px;
@@ -465,6 +469,7 @@ a:hover{
 	width: 180px;
 	background: #FFF;
 	top:0;
+	z-index:10;
 }
 .naver-main .category .hover .category-panel{
 	display: block;
@@ -561,6 +566,7 @@ a:hover{
 	font-size: 14px;
 	line-height: 30px;
 	height:34px;
+
 }
 .naver-main .naver .naver-item .naver-childer-list li:hover,.naver-main .naver .naver-item .naver-childer-list li a:hover{
 	background-color: #fbfaf9;
@@ -571,6 +577,9 @@ a:hover{
 }
 .naver-main .naver-item:hover .naver-childer-list{
 	display: block;
+	z-index: 10;
+	position: relative;
+
 }
 .hot-board{
 	width:1200px;
@@ -596,6 +605,10 @@ a:hover{
 .layout .hl{
 	width:902px;
 	float: left;
+}
+.head-item{
+	position: relative;
+	overflow: hidden;
 }
 .head-item .channel-list .channel-item{
 	height:310px;
@@ -747,10 +760,6 @@ a:hover{
 }
 .layout .hr .news-img{
 
-}
-.middle-banner{
-	width:1200px;
-	margin:0 auto;
 }
 .layout .h{
 	height:35px;
@@ -1014,4 +1023,28 @@ a:hover{
 .footer .bottom{
 	margin-top: 15px;
 	margin-bottom: 30px;
+}
+.top_banner_button,.middle_banner_button{
+	position: absolute;
+	z-index: 3;
+	right: 15px;
+	bottom:15px;
+}
+.top_banner_button li,.middle_banner_button li{
+	border-radius: 2px;
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	float: left;
+	background: #3a3c40;
+	float: left;
+	margin-left: 10px;
+	z-index: 3;
+	opacity:0.5;
+	cursor: pointer;
+}
+.top_banner_button .current,.middle_banner_button .current{
+	border-radius: 2px;
+	background:#ca141d;
+	opacity:.9;
 }
