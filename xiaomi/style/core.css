@@ -1371,6 +1371,10 @@ a:hover{
 .footer .service-bar ul li a{
 	font-size: 16px;
 	line-height: 30px;
+	transition:all .2s linear;
+}
+.footer .service-bar ul li a:hover{
+	color: #ff6700;
 }
 .footer .page-link{
 	height: 190px;
@@ -1406,6 +1410,9 @@ a:hover{
 	color: #757575;
 	font-size: 12px;
 	line-height: 25px;
+}
+.footer .page-link .page-link-left ul .link-item ul li a:hover{
+	color: #ff6700;
 }
 .footer .page-link .page-link-right{
 	float: right;
